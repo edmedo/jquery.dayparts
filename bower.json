@@ -1,19 +1,11 @@
 {
-  "name": "jquery.dayparts",
-  "homepage": "https://github.com/mcuznz/jquery.dayparts",
-  "main": [
-    "./js/jquery.dayparts.js",
-    "./css/jquery.dayparts.css"
-    ],
+  "name": "jquery-dayparts",
   "version": "0.1.1",
-  "_release": "0.1.1",
-  "_resolution": {
-    "type": "version",
-    "tag": "0.1.1",
-    "commit": "74724290a4e39e96181a229cb0e2d681c70cd999"
-  },
-  "_source": "git://github.com/mcuznz/jquery.dayparts.git",
-  "_target": "~0.1.1",
-  "_originalSource": "jquery-dayparts",
-  "_direct": true
+  "homepage": "https://github.com/edmedo/jquery.dayparts",
+  "authors": [
+    "Mike Cousins"
+  ],
+  "description": "clone of mcuznz/jquery.dayparts",
+  "main": "[\"./js/jquery.dayparts.js\",\"./css/jquery.dayparts.css\"]",
+  "license": "MIT"
 }
