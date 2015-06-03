@@ -8,18 +8,56 @@
 	user-select: none;
 }
 
-.dayparts td.cell-label.day-label,
-.dayparts td.cell-label.hour-label {
+.dayparts {
+	border-collapse: collapse;
+}
+
+.dayparts .hour-label:nth-of-type(even){
+	color: #FFF;
+}
+
+.dayparts tbody td.dayparts-cell {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ededed;
+}
+
+.dayparts tbody tr td:nth-of-type(odd) {
+	background-color: #fbfbfb;
+}
+
+.dayparts tbody tr td:first-child, .dayparts tbody tr td:last-child {
+	border-right: 1px solid #ededed;
+}
+
+.dayparts .day-label,
+.dayparts .hour-label {
+	color: #313A49;
 	cursor: pointer;
-	background: #E2F0FF;
+	background: #FFF;
+	font-size: 14px;
+}
+
+.dayparts .day-label {
 	text-align: right;
-	font-size: 90%;
+	width: 12%;
+	font-size: 13px;
+}
+
+.dayparts .hour-label {
+	text-align: center;
+	font-size: 12px;
 }
 
 .dayparts td.cell-label.presets-label {
 	text-align: right;
-	padding: 0 5px;
+	padding: 15px;
 	vertical-align: middle;
+	color: #313A49;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .dayparts td.dayparts-cell {
@@ -29,15 +67,21 @@
 	cursor: pointer;
 	line-height: 1px;
 	font-size: 1px;
-	background: #C73535;
+	background: #FFF;
+}
+
+.dayparts .am-label, .dayparts .pm-label {
+	color: #313A49;
+	font-size: 12px;
+	font-weight: 400;
 }
 
 .dayparts td.dayparts-cell.hour-active {
-	background: linear-gradient(#A0E674, #77AD3A);
+	background: #BDE408;
 }
 .dayparts td.dayparts-cell.dragging-active {
-	background: linear-gradient(#D1EAB4, #A7CE7B);
+	background: #DFE0E3;
 }
 .dayparts td.dayparts-cell.dragging-inactive {
-	background: #A71515;
+	background: #ededed;
 }
