@@ -1,0 +1,10 @@
+{
+  "name": "jquery-dayparts",
+  "version": "0.1.1",
+  "homepage": "https://github.com/edmedo/jquery.dayparts",
+  "description": "clone of mcuznz/jquery.dayparts",
+  "main": [
+  	"./js/jquery.dayparts.js",
+  	"./css/jquery.dayparts.css"
+  ]
+}
